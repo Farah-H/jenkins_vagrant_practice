@@ -1,3 +1,5 @@
+__If you see this message on Master branch, it means the Jenkins builds were successful__
+
 # Sparta NodeJs Sample APP DevEnv and CI
 This repo will be a dev env you can copy and setup by running vagrant up
 
@@ -15,3 +17,27 @@ This repo will be a dev env you can copy and setup by running vagrant up
 5. if you go to `192.168.10.100:3000` this should also be available there
 6. if you go to `192.168.10.100/fibonacci/{}` where {} is any number you should see the fibonacci page is also working. 
 8. finally, if you go to `192.168.10.100/posts` you should see a posts page if the DB is working properly. 
+
+# Jenkins how to read from a different branch 
+
+## How to create and push to a new branch using GitBash
+To create a branch type the following in bash, in a tracked directory 
+```bash
+git checkout -b <branch>
+```
+
+changing to an existing branch
+```bash
+git checkout <branch>
+```
+
+commit to branch as normal 
+```bash
+git add . 
+git commit -m "comment"
+```
+
+once committed you can push specific branches to origin 
+```bash
+git push origin <branch>
+```
