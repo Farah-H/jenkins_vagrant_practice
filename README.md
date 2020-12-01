@@ -1,4 +1,4 @@
-__If you see this message on Master branch, it means the Jenkins builds were successful(test#3)__
+__If you see this message on Master branch, it means the Jenkins builds were successful(test#4)__
 
 # Sparta NodeJs Sample APP DevEnv and CI
 This repo will be a dev env you can copy and setup by running vagrant up
