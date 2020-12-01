@@ -2,8 +2,8 @@
 This repo will be a dev env you can copy and setup by running vagrant up
 
 # Pre-Requisites 
-- [Vagrant]() 
-- [Virtual Box]()
+- [Vagrant](https://www.vagrantup.com/downloads.html) 
+- [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 - [Ruby]()
 - a lightweight IDE, such as [Visual Studio Code]()
 
