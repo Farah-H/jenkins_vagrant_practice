@@ -13,4 +13,5 @@ This repo will be a dev env you can copy and setup by running vagrant up
 3. go to `192.168.10.100` in your browser to see the homepage for the jsnode app
 4. this should also work on `192.168.10.100`
 5. if you go to `192.168.10.100:3000` this should also be available there
-6. if you go to ``192.168.10.100:3000/fibonacci/{}` where {} is any number you should see the fibonacci page is also working. 
+6. if you go to `192.168.10.100/fibonacci/{}` where {} is any number you should see the fibonacci page is also working. 
+8. finally, if you go to `192.168.10.100/posts` you should see a posts page if the DB is working properly. 
