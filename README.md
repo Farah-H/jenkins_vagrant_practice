@@ -10,4 +10,4 @@ This repo will be a dev env you can copy and setup by running vagrant up
 # Instructions and step by step
 1. Clone this repo
 2. Run `vagrant up` in your terminal in that location
-3. 
+3. go to `192.168.10.100`
