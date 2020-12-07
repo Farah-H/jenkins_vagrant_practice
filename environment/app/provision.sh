@@ -18,7 +18,7 @@ sudo apt-get install nodejs -y
 sudo npm install pm2 -g
 
 # install nginx
-sudo apt-get install nginx -y
+
 
 # copt config file into app files
 sudo cp /vagrant/nginx.conf /etc/nginx/
@@ -28,7 +28,7 @@ sudo service nginx restart
 # start the jsnode app
 cd /home/ubuntu/app
 
-echo "DB_HOST=192.168.10.150" >> ~/.bashrc
+echo "DB_HOST=172.31.43.92" >> ~/.bashrc
 
 source ~/.bashrc
 
