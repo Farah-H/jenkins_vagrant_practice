@@ -1,4 +1,4 @@
-__Testing Jenkins Pipeline__
+__If you can see this in Master branch, Jenkins Pipeline is working correctly__
 
 # Sparta NodeJs Sample APP DevEnv and CI
 This repo will be a dev env you can copy and setup by running vagrant up
