@@ -10,7 +10,7 @@ sudo apt-get upgrade -y
 sudo apt-get install git -y
 
 # install nodejs
-sudo apt-get install python-software-properties -y
+sudo apt-get install python-software-properties-common -y
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs -y
 
@@ -18,17 +18,17 @@ sudo apt-get install nodejs -y
 sudo npm install pm2 -g
 
 # install nginx
-
+sudo apt-get install nginx -y
 
 # copt config file into app files
-sudo cp /vagrant/nginx.conf /etc/nginx/
+sudo cp nginx.conf /etc/nginx/
 
 # finally, restart the nginx service so the new config takes hold
-sudo service nginx restart
+sudo systemctyl restart nginx 
 # start the jsnode app
 cd /home/ubuntu/app
 
-echo "DB_HOST=172.31.43.92" >> ~/.bashrc
+echo "DB_HOST=192.168.10.150" >> ~/.bashrc
 
 source ~/.bashrc
 
